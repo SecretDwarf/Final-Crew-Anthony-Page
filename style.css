@@ -467,6 +467,13 @@ iframe {
     color: #f5f5f5;
     background: #228B22;
 }
+.registration-instructions a {
+    background: green;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    color: lightgray;
+}
 /* scaling */
 
 /* Footer */
