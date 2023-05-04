@@ -2,7 +2,7 @@
 *{
     font-family: 'Gill Sans', sans-serif;
     font-style : normal;
-    font-weight : 400;
+    font-weight: 350;
 }
 
 body {
@@ -126,7 +126,7 @@ footer{
     padding: 70px 0;
 }
 .footer-col{
-    width: 20%;
+    width: 21%;
     padding: 0 15px;
 }
 .row{
@@ -361,8 +361,9 @@ button.active{
     display: block;
 }
 .staff-container .our_staff .staff .staff_role{
-    padding: 10px;
+    padding-top: 25px;
     text-align: center;
+    /* justify-content: center; */
     color: #FAF9F6;
     font-size: 12px;
     height: 15%;
