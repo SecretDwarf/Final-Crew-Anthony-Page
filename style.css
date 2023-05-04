@@ -309,8 +309,9 @@ button.active{
 }
 /* About Us */
 .staff-info{
-    background-color: lightsteelblue;
-    height: 500px;
+    background-color: #1abc9c;
+    height: 100%;
+    padding-top: 24px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -339,6 +340,7 @@ button.active{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 15px solid #1abc9c;
     /* height: 350px; */
 }
 .staff-container .our_staff{
@@ -406,16 +408,15 @@ button.active{
 }
 .info{
     position: absolute;
+    overflow-y: scroll;
     top: 70px;
     right: 5px;
     width: 90%;
-    height: fit-content; 
+    height: 70%;
     padding: 10px;
     border-radius: 5px;
     color: #FAF9F6;
     display: none;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 .info h4{
     margin-bottom: 15px;
@@ -424,7 +425,6 @@ button.active{
     font-size: 30px;
     line-height: 35px;
     color: #323139;
-
 }
 .info:before{
     content: "";
