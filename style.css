@@ -409,19 +409,22 @@ button.active{
     top: 70px;
     right: 5px;
     width: 90%;
+    height: fit-content; 
     padding: 10px;
-    text-align: right;
     border-radius: 5px;
     color: #FAF9F6;
     display: none;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .info h4{
     margin-bottom: 15px;
 }
 .info p{
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
     color: #323139;
+
 }
 .info:before{
     content: "";
