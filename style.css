@@ -208,6 +208,7 @@ footer a{
     min-width: 350px;
     min-height: 250px;
     padding-bottom: 40px;
+    padding-top: 40px;
     overflow: hidden;
     background: #3e3a3b;
 }
@@ -226,9 +227,9 @@ footer a{
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     margin: 0 10px;
 }
 .slide-thumb{
@@ -251,19 +252,18 @@ footer a{
     padding: 5px 20px;
     background: #fff;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 1.5em;
 }
 .slide-body{
     width: 70%;
-    height: auto;
     margin-left: 20px;
-    position: relative;
-    padding-bottom: 50px;
+    /* position: relative; */
+    /* padding-bottom: 50px; */
 }
 .story{
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 30px;
+    font-size: 2.4em;
+    line-height: 1em;
+    /* padding-top: 35px; */
 }
 /* gallery */
 .Gallery{
@@ -466,6 +466,7 @@ iframe {
 .registration-instructions {
     margin: 25px;
     border-radius: 50px;
+    font-size: 3em;
     padding: 30px;
     color: #f5f5f5;
     background: #228B22;
